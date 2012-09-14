@@ -1,29 +1,3 @@
-/*
-Ideas: There are 3 important parameters in this algorithm, skip_idnex, i, j. If
-num[skip_index], num[i], num[j] is added to 0. We add them to the result.
-
-The loop maintains an important invariant: skip_index < i < j. (See the code for
-how the loop invariant is maintained)
-Since the array is sorted, we have num[skip_index] < num[i] < num[j].
-
-Now let's explain how the algorithm avoids duplicates. For the ease of explanation,
-let's assume the first found triplets are num[k] < num[i] < num[j], and the duplicated
-triplets are num[dk] < num[di] < num[dj]. Now duplication occurs if and only if
-num[k] == num[dk] and num[i] == num[di] and num[j] == num[dj].
-Since array is sorted, supposing num[k] == num[dk] == 4, we have the following situation:
-elements:   4 4 4 4 4 4
-indexes:    k ....... dk
-
-So there are only the same elements between k and dk.
-
-So if we want to avoid searching duplicated k's, i's and j's, we need special logic
-to increase k, increase i and decrease j. This is what the increase function and decrease
-function does.
-
-In summary, duplication removal is achieved by imposing a searching order when
-searching the array and avoiding searching same elements.
-*/
-
 int increase(vector<int> &num, int i) {
     int newi = i + 1;
     while (newi < num.size() && num[newi] == num[i])
