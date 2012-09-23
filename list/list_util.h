@@ -11,6 +11,7 @@ struct ListNode {
     ListNode *next;
     ListNode(int v = 0, ListNode *n = NULL): value(v), next(n) {}
 };
+
 ListNode *head;
 
 void print_list(ListNode *node) {
@@ -90,6 +91,11 @@ ListNode *insert(ListNode *node, int pos, ListNode *new_node) { // node is head 
     new_node -> next = node;
 
     return dummy.next;
+}
+
+void push(ListNode **headRef, int val) {
+    ListNode *newNode = new ListNode(val, *headRef);
+    *headRef = newNode;
 }
 
 #endif
