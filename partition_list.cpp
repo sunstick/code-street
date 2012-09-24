@@ -21,7 +21,6 @@ public:
             else
                 tail = &tail2;
 
-
             (*tail) -> next = head;
             head = head -> next;
             *tail = (*tail) -> next;
@@ -33,3 +32,11 @@ public:
         return dummy1.next;
     }
 };
+
+/*
+The in-place partition operation for linked lists is much simpler than it for arrays.
+
+Can you think of other operations that are simpler/faster on linked lists than they on arrays?
+rotate operation, merge sort (because sorted_merge on linked lists doesn't require additional buffer)
+
+*/
