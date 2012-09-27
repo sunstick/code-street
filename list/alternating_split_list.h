@@ -3,7 +3,7 @@
   Sublists should be made from alternating elements in the original list.
  */
 
-void alternatingSplit(ListNode *head, ListNode **aRef, ListNode **bRef) {
+void alternating_split(ListNode *head, ListNode **aRef, ListNode **bRef) {
     ListNode dummyA, dummyB;
     ListNode *tailA = &dummyA;
     ListNode *tailB = &dummyB;

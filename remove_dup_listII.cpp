@@ -1,3 +1,11 @@
+/*
+Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.
+
+For example,
+Given 1->2->3->3->4->4->5, return 1->2->5.
+Given 1->1->1->2->3, return 2->3.
+*/
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -14,32 +22,33 @@ public:
         if (!head) return head;
 
         ListNode dummy(0);
+
         ListNode *tail = &dummy;
-        tail -> next = NULL;
-
         ListNode *node = head;
+        ListNode *next = head -> next;
+        bool flag = false;
 
-        while (node) {
-            ListNode *prev = node;
-            node = node -> next;
-
-            if (!node) {
-                tail -> next = prev;
-                tail = tail -> next;
-                tail -> next = NULL;
-                break;
-            }
-
-            if (node -> val == prev -> val) {
-                while (node && node -> val == prev -> val)
-                    node = node -> next;
+        while (next) {
+            if (node -> val == next -> val) {
+                flag = true;
+                node -> next = next -> next;
+                delete next;
+                next = node -> next;
             } else {
-                tail -> next = prev;
-                tail = tail -> next;
-                tail -> next = NULL;
+                if (flag) {
+                    delete node;
+                } else {
+                    tail -> next = node;
+                    tail = tail -> next;
+                    tail -> next = NULL;
+                }
+                node = next;
+                next = next -> next;
+                flag = false;
             }
         }
 
+        if (!flag) tail -> next = node;
 
         return dummy.next;
     }

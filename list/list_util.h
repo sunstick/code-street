@@ -68,10 +68,10 @@ ListNode *getLastNth(ListNode *node, int n) { // n == 1 indicates last element, 
     return node;
 }
 
-void deleteList(ListNode **nodeRef) {
+void delete_list(ListNode **nodeRef) {
     if (*nodeRef == NULL) return ;
 
-    deleteList(&((*nodeRef) -> next));
+    delete_list(&((*nodeRef) -> next));
 
     delete *nodeRef;
     *nodeRef = NULL;
