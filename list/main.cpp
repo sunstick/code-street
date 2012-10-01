@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstring>
 
-#include "merge_sort_list.h"
+#include "reverse.h"
 
 using namespace std;
 
