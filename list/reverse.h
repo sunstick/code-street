@@ -28,20 +28,33 @@ ListNode *reverse_cur(ListNode *head) {
 }
 
 void reverse_cur2(ListNode **head_ref) {
+    ListNode *node = *head_ref;
+    if (!node) return ;
 
+    ListNode *rest = node -> next;
+    if (!rest) return ;
+
+    reverse_cur2(&rest);
+    node -> next -> next = node;
+    node -> next = NULL;
+    *head_ref = rest;
 }
-
 
 void test() {
     ListNode *a = NULL;
+    ListNode *b = NULL;
+
     push(&a, 0);
     push(&a, 1);
     push(&a, 2);
     push(&a, 3);
-    print_list(a);
-    ListNode *b = reverse(a);
-    print_list(b);
+    push(&a, 4);
 
+    print_list(a);
+    b = reverse(a);
+    print_list(b);
     a = reverse_cur(b);
+    print_list(a);
+    reverse_cur2(&a);
     print_list(a);
 }

@@ -17,7 +17,7 @@ bool is_palindrome(ListNode **left, ListNode *right) {
 }
 
 void test() {
-	ListNode *a = NULL;
+    ListNode *a = NULL;
 
     push(&a, 0);
     push(&a, 1);
