@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstring>
 
-#include "reverse.h"
+#include "alternating_split_list.h"
 
 using namespace std;
 
