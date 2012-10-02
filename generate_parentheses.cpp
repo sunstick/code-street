@@ -1,3 +1,11 @@
+/*
+Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+
+For example, given n = 3, a solution set is:
+
+"((()))", "(()())", "(())()", "()(())", "()()()"
+*/
+
 void solve(int off, int left, int right, string &sol, int n, vector<string> &res) {
     if (off == 2 * n) {
         res.push_back(sol);

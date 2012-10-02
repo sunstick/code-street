@@ -1,3 +1,19 @@
+/*
+Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
+
+For example,
+If n = 4 and k = 2, a solution is:
+
+[
+  [2,4],
+  [3,4],
+  [2,3],
+  [1,2],
+  [1,3],
+  [1,4],
+]
+*/
+
 void solve(vector<int> &s, int off, int n, int start, int k, vector<vector<int> > &res) {
     if (off == k) {
         res.push_back(s);
