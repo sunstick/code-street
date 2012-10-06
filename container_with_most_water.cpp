@@ -7,8 +7,6 @@ Note: You may not slant the container.
 class Solution {
 public:
     int maxArea(vector<int> &h) {
-        // Start typing your C/C++ solution below
-        // DO NOT write int main() function
         int res = -1;
         int n = h.size();
 
