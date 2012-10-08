@@ -14,8 +14,6 @@ If n = 4 and k = 2, a solution is:
 ]
 */
 
-
-
 class Solution {
 public:
     void solve(vector<int> &s, int off, int n, int start, int k, vector<vector<int> > &res) {
