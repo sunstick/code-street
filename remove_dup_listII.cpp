@@ -14,6 +14,7 @@ Given 1->1->1->2->3, return 2->3.
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+ 
 class Solution {
 public:
     ListNode *deleteDuplicates(ListNode *head) {

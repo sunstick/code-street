@@ -1,3 +1,7 @@
+/*
+Write a function to find the longest common prefix string amongst an array of strings.
+*/
+
 class Solution {
 public:
     bool is_same(vector<string> &strs, int k) {
@@ -15,9 +19,8 @@ public:
 
         return true;
     }
+
     string longestCommonPrefix(vector<string> &strs) {
-        // Start typing your C/C++ solution below
-        // DO NOT write int main() function
         if (strs.size() == 0) return "";
         int s = 0;
 
