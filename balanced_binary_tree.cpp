@@ -14,8 +14,6 @@ Given a binary tree, determine if it is height-balanced.
 class Solution {
 public:
     bool isBalanced(TreeNode *root) {
-        // Start typing your C/C++ solution below
-        // DO NOT write int main() function
         int height;
         return isBalanced(root, height);
     }

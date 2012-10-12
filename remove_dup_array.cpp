@@ -30,3 +30,18 @@ public:
         return newn;
     }
 };
+
+int removeDuplicates(int A[], int n) {
+    int tail = 0;
+    for (int i = 0; i < n; i++) {
+        // invariant: A[0 ... tail - 1] is the array that contains all elements in A[0 ... i] without duplicates
+        int j;
+        for (j = 0; j < tail; j++)
+            if (A[j] == A[i])
+                break;
+        if (j == tail)
+            A[tail++] = A[i];
+    }
+
+    return tail;
+}

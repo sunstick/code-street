@@ -7,6 +7,21 @@ The order of elements can be changed. It doesn't matter what you leave beyond th
 class Solution {
 public:
     int removeElement(int A[], int n, int elem) {
+        int tail = 0;
+
+        // invariant: A[0 ... tail - 1] don't contain elem
+        for (int i = 0; i < n; i++)
+            if (A[i] != elem)
+                A[tail++] = A[i];
+
+        return tail;
+    }
+};
+
+/*
+class Solution {
+public:
+    int removeElement(int A[], int n, int elem) {
         int end = n - 1;
         int start = 0;
 
@@ -24,3 +39,4 @@ public:
         return n;
     }
 };
+*/
