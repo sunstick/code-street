@@ -1,14 +1,14 @@
 /*
-  If we allow a node to swap its left or right node, write a function to tell if two trees are the same.
-  For example,
-    1
-  2   3
-  is same with
-    1
-  3   2
+If we allow a node to swap its left or right node, write a function to tell if two trees are the same.
+For example,
+  1
+2   3
+is same with
+  1
+3   2
 
-  return the number of necessary swapping operations
- */
+return the number of necessary swapping operations
+*/
 
 #define MAX_SWAP -1
 

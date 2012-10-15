@@ -1,6 +1,6 @@
 /*
- Reverse a stack recursively
- */
+Reverse a stack recursively
+*/
 
 #define N 8
 

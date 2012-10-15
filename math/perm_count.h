@@ -1,6 +1,6 @@
 /*
- How many valid permutations does n pairs of parentheses.
- */
+How many valid permutations does n pairs of parentheses.
+*/
 
 #define N 4
 

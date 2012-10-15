@@ -1,6 +1,6 @@
 /*
- factorize n!
- */
+factorize n!
+*/
 
 int prime[100], counta = 0;
 int p[100];

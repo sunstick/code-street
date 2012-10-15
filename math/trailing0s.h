@@ -1,6 +1,6 @@
 /*
-  Write an algorithm which computes the number of trailing zeros in n factorial.
- */
+Write an algorithm which computes the number of trailing zeros in n factorial.
+*/
 
 int count_zero_1 (int n) {
     int count = 0;

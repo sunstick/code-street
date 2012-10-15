@@ -1,6 +1,6 @@
 /*
-  Given two 32-bit numbers, n and m, and two bit positions, i and j.
-  Write a method to set all bits between i and j in n equal to m.
+Given two 32-bit numbers, n and m, and two bit positions, i and j.
+Write a method to set all bits between i and j in n equal to m.
 */
 
 void print_bin(int x) {

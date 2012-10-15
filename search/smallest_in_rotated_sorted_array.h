@@ -1,6 +1,6 @@
 /*
- Find the smallest number in a rotated and sorted array
- */
+Find the smallest number in a rotated and sorted array
+*/
  
 int searchMin_rotated(int *array, int l, int r) {
     while (l != r && array[l] >= array[r]) {

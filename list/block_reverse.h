@@ -1,12 +1,13 @@
 /*
-  Reverse a linked list by block size.
-  For example, if the block size is 3 and the list is [1,2,3,4,5,6,7,8],
-  the returned list would be [3,2,1,6,5,4,8,7]
- */
+Reverse a linked list by block size.
+For example, if the block size is 3 and the list is [1,2,3,4,5,6,7,8],
+    the returned list would be [3,2,1,6,5,4,8,7]
+*/
+
 /*
-  Note this problem is different from the LeetCode problem "reverse nodes in k groups".
-  In that problem, if the number of nodes is not a multiple of k, the left-out nodes in the end should remain what it is.
- */
+Note this problem is different from the LeetCode problem "reverse nodes in k groups".
+In that problem, if the number of nodes is not a multiple of k, the left-out nodes in the end should remain what it is.
+*/
 
 ListNode *block_reverse(ListNode *head, int block_size) {
     ListNode dummy(0, NULL);

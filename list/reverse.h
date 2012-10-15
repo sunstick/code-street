@@ -1,6 +1,6 @@
 /*
-  Reverse a list
- */
+Reverse a list
+*/
 
 ListNode *reverse(ListNode *head) {
     ListNode *prev = NULL;

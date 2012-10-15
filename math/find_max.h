@@ -1,6 +1,6 @@
 /*
-  Write a method which finds the maximum of two numbers. You should not use if-else or any other comparison operator.
- */
+Write a method which finds the maximum of two numbers. You should not use if-else or any other comparison operator.
+*/
 
 int findMax(int a, int b) {
     int c = a - b;

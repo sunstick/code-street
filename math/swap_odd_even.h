@@ -1,6 +1,6 @@
 /*
-  Write a program to swap odd and even bits in an integer with as few instructions as possible (e.g., bit 0 and bit 1 are swapped, bit 2 and bit 3 are swapped, etc).
- */
+Write a program to swap odd and even bits in an integer with as few instructions as possible (e.g., bit 0 and bit 1 are swapped, bit 2 and bit 3 are swapped, etc).
+*/
 
 int swap_odd_even_bits(int n) {
     return ((0xAAAAAAAA & n) >> 1) | ((0x55555555 & n) << 1);

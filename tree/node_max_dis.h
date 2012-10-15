@@ -1,6 +1,6 @@
 /*
-  Find the maximum distance between two nodes in a binary tree.
- */
+Find the maximum distance between two nodes in a binary tree.
+*/
 
 int maxDistance(TreeNode *node) {
     if (!node)

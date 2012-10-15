@@ -1,6 +1,6 @@
 /*
- Number of ones in an integer's binary representation.
- */
+Number of ones in an integer's binary representation.
+*/
 
 int number_ones(unsigned int n) {
     int ones = 0;

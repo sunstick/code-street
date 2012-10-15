@@ -1,6 +1,6 @@
 /*
- LCA problem of linked list
- */
+LCA problem of linked list
+*/
 
 ListNode *lca(ListNode *p, ListNode *q) {
     int dp1 = length(p);

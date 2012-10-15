@@ -1,6 +1,6 @@
 /*
- LCA problem of a binary tree
- */
+LCA problem of a binary tree
+*/
 
 TreeNode *lca(TreeNode *node, TreeNode *p, TreeNode *q) {
     if (!node)

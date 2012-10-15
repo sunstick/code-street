@@ -1,5 +1,5 @@
 /*
-  Write a c program to count the number of words in a string.
+Write a c program to count the number of words in a string.
 */
 
 int count_words(const char *str) {

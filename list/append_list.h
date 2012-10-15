@@ -1,5 +1,5 @@
 /*
-  append list b onto the list a
+Append list b onto the list a
 */
 
 void append_b_to_a(ListNode *a, ListNode *b) {

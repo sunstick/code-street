@@ -1,7 +1,7 @@
 /*
-  The function takes one list and split it into two smaller ones.
-  Sublists should be made from alternating elements in the original list.
- */
+The function takes one list and split it into two smaller ones.
+Sublists should be made from alternating elements in the original list.
+*/
 
 void alternating_split(ListNode *head, ListNode **aRef, ListNode **bRef) {
     ListNode dummyA, dummyB;

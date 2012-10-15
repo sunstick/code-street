@@ -1,6 +1,6 @@
 /*
- The last n digits of string A overlaps with the first n digits of string B append B to append A, the overlapping part appears only once in the result string
- */
+The last n digits of string A overlaps with the first n digits of string B append B to append A, the overlapping part appears only once in the result string
+*/
 
 string appendad(string &a, string &b) {
     int i = 0;

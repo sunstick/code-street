@@ -1,6 +1,6 @@
 /*
-  Find all paths whose sum is a certain value.
- */
+Find all paths whose sum is a certain value.
+*/
 
 bool hasPathSum(TreeNode *node, int target) {
     target -= node->value;

@@ -1,7 +1,7 @@
 /*
- Implementation of merge sort of linked list.
- Key procedures are front_back_split and sorted merge
- */
+Implementation of merge sort of linked list.
+Key procedures are front_back_split and sorted merge
+*/
 
 ListNode *front_back_split(ListNode *head) {
     ListNode *slow = head;

@@ -1,13 +1,13 @@
 /**
-   Given a binary tree
+Given a binary tree
 
-   struct Node {
-   Node* leftChild;
-   Node* rightChild;
-   Node* nextRight;
-   }
+struct Node {
+  Node* leftChild;
+  Node* rightChild;
+  Node* nextRight;
+}
 
-   Populate the nextRight pointers in each node.
+Populate the nextRight pointers in each node.
 */
 
 #include <iostream>

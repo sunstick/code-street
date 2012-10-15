@@ -1,5 +1,5 @@
 /*
- Copy of complex lists
+Copy of complex lists
 */
 
 struct ComplexNode {

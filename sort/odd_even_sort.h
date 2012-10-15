@@ -3,7 +3,7 @@
 the array contains odd numbers, bottom portion contains even numbers. The odd numbers are to be sorted
 in descending order and the even numbers in ascending order. You are not allowed to use any extra array
 and it has to use a conventional sorting mechanism and should not do any pre or post processing.
- */
+*/
 
 bool odd_even_cmp(int a, int b) {
     if (a & 1) { // if a is odd

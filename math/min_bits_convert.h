@@ -1,6 +1,6 @@
 /*
-  Write a function to determine the number of bits required to convert integer A to integer B.
- */
+Write a function to determine the number of bits required to convert integer A to integer B.
+*/
 
 int bit_swap_required(int a, int b) {
     int c = a ^ b;

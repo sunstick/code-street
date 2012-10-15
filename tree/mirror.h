@@ -1,6 +1,6 @@
 /*
- Given a binary search tree(BST), convert it into its mirror
- */
+Given a binary search tree(BST), convert it into its mirror
+*/
 
 void convert(TreeNode *node) {
     if (node == NULL)

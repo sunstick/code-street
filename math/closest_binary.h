@@ -1,6 +1,6 @@
 /*
-  Given an integer, print the next smallest and next largest number that have the same number of 1 bits in their binary representation.
- */
+Given an integer, print the next smallest and next largest number that have the same number of 1 bits in their binary representation.
+*/
 
 void print_bin(int x) {
     bitset<sizeof(int) * 8> binary (x);

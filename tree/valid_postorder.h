@@ -1,6 +1,6 @@
 /*
- Check if a sequence of integers is a postorder traversal of some binary search tree (BST)
- */
+Check if a sequence of integers is a postorder traversal of some binary search tree (BST)
+*/
 
 bool hasBST(int *array, int a, int b) {
     if (a >= b)

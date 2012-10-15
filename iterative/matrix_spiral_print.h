@@ -1,5 +1,5 @@
 /*
-  Given a matrix(2d array) with m rows and n columns. Print the matrix in spiral order.
+Given a matrix(2d array) with m rows and n columns. Print the matrix in spiral order.
 */
 
 #define x 500
