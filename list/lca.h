@@ -2,8 +2,6 @@
  LCA problem of linked list
  */
 
-#include "list_util.h"
-
 ListNode *lca(ListNode *p, ListNode *q) {
     int dp1 = length(p);
     int dp2 = length(q);

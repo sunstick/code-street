@@ -2,10 +2,6 @@
 #ifndef LIST_UTIL_H
 #define LIST_UTIL_H
 
-#include <iostream>
-
-using namespace std;
-
 struct ListNode {
     int value;
     ListNode *next;

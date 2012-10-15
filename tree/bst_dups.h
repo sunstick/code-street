@@ -11,8 +11,6 @@ For example,
             4
 */
 
-#include "tree_util.h"
-
 TreeNode *bst_dups(TreeNode *node, TreeNode *prev, int &res) {
     if (!node) return prev;
 

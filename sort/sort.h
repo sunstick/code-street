@@ -2,8 +2,6 @@
   sorting functions.
  */
 
-#include "string_array_util.h"
-
 void insertionSort(int a[], int n) {
     for (int i = 0; i < n - 1; i++) {
         assert(isSorted(a, i + 1));

@@ -2,8 +2,6 @@
   Reverse a list
  */
 
-#include "list_util.h"
-
 ListNode *reverse(ListNode *head) {
     ListNode *prev = NULL;
     ListNode *node = head;

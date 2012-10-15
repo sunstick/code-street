@@ -8,8 +8,6 @@
   In that problem, if the number of nodes is not a multiple of k, the left-out nodes in the end should remain what it is.
  */
 
-#include "list_util.h"
-
 ListNode *block_reverse(ListNode *head, int block_size) {
     ListNode dummy(0, NULL);
     ListNode *begin = &dummy;

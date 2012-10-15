@@ -3,7 +3,6 @@
   Method 1: use front back split to split the lists into two parts. Reverse the back part and compare it with the first part to see if they are the same.
   Method 2: recursive method, doesn't need to change the content of the original list. Recommended and used in this file.
  */
-#include "list_util.h"
 
 bool is_palindrome(ListNode **left, ListNode *right) {
     if (!right)

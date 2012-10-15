@@ -3,8 +3,6 @@
   Sublists should be made from alternating elements in the original list.
  */
 
-#include "list_util.h"
-
 void alternating_split(ListNode *head, ListNode **aRef, ListNode **bRef) {
     ListNode dummyA, dummyB;
     ListNode *tailA = &dummyA;

@@ -1,10 +1,6 @@
 /*
-Copy of complex lists
+ Copy of complex lists
 */
-
-#include <map>
-
-using namespace std;
 
 struct ComplexNode {
     int value;

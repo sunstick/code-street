@@ -1,9 +1,15 @@
-#include <iostream>
+#include <algorithm>
 #include <cstring>
-
-#include "bst_dups.h"
+#include <iostream>
+#include <map>
+#include <queue>
+#include <string>
+#include <vector>
 
 using namespace std;
+
+#include "tree_util.h"
+#include "bst_dups.h"
 
 int main(int argc, char const *argv[]) {
     test();
