@@ -23,4 +23,3 @@ Online problems at <http://www.leetcode.com/onlinejudge>
 3. Combinaiton Sum II - dp + path construction using recursive backtracking
 4. Decode ways - simple dp
 5. Edit Distance - classic dp
-6. 
